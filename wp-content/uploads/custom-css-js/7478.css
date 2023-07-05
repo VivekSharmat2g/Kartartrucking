@@ -1,0 +1,196 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.elementor-365 .elementor-element.elementor-element-1cdd885 .generic-main-menu nav > ul > li > a:hover {
+    color: #e9a91e !important;
+}
+
+.elementor-365 .elementor-element.elementor-element-74e2320 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 6px 0px 6px 0px;
+    background-color: #ffffff !important;
+}
+
+.elementor-365 .elementor-element.elementor-element-1cdd885 .generic-main-menu nav > ul > li > a:focus {
+    color: #e9a91e !important;
+}
+.elementor-365 .elementor-element.elementor-element-1cdd885 .generic-main-menu nav > ul > li > a:hover {
+    color: #e9a91e !important;
+}
+.elementor-365 .elementor-element.elementor-element-1cdd885 .generic-main-menu nav > ul > li > a:hover {
+    color: #e9a91e !important;
+}
+
+.elementor-449 .elementor-element.elementor-element-c0b5e74 .generic-el-copyright {
+    color: #ffffff;
+    font-family: "Oswald", Sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .elementor-449 .elementor-element.elementor-element-1043f83{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.elementor-449 .elementor-element.elementor-element-58c1e5a {
+    width: 100% !important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.elementor-449 .elementor-element.elementor-element-8bd8716 {
+    width: 100% !important;
+	}
+}
+
+#left-area ul.elementor-icon-list-items, .elementor-edit-area .elementor-element ul.elementor-icon-list-items, .elementor .elementor-element ul.elementor-icon-list-items {
+    padding: 0;
+    margin-top: -27px;
+}
+
+.elementor-widget .elementor-icon-list-item, .elementor-widget .elementor-icon-list-item a {
+    display: flex;
+    font-size: inherit;
+    align-items: var(--icon-vertical-align,center);
+    padding-top: 4px;
+}
+
+.about__3-content-right {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    display: none;
+}
+
+.about__3-content-left {
+    padding-right: 0px;
+}
+
+.approach__text ul {
+    padding-right: 60px;
+    display: inline-block;
+    list-style: none;
+    display: none;
+}
+
+.mission__text-inner {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.team__founder-item-icon {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    background-color: rgba(213, 27, 40, 0.1);
+    display: none;
+}
+
+#dl-header-style .elementor-button-wrapper a {
+    clip-path: polygon(11% 0, 100% 0, 89% 100%, 0 100%) !important;
+ 
+}
+
+.far {
+    font-family: "Font Awesome 5 Pro" !important;
+    font-weight: 400;
+}
+
+.elementor-365 .elementor-element.elementor-element-1cdd885 .generic-main-menu, .elementor-365 .elementor-element.elementor-element-1cdd885 .side-menu-icon {
+    text-align: right !important;
+}
+
+.dp-single-gallery img {
+    max-width: 100%;
+    transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+    height: 401px;
+}
+
+
+.our-services-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #01286300 !important;
+    z-index: 1;
+    opacity: 0.5;
+    transition: 0.4s linear;
+}
+
+.banner-content .banner-btn .skew-btn::before {
+    border-color: #f3f3f3;
+    background-color: #3ea6bb;
+}
+
+/*-27-june-2023*/
+.our-services-wrapper {
+    border: 1px solid #ddd;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    height: 500px;
+}
+
+/*28-june-2023*/
+.inner-our-services .our-services-text h3 a:hover::before {
+    background-color: #bc101c00 !important;
+}
+
+.inner-our-services .our-services-text h3 a::before {
+    height: 0px !important;
+}
+
+.about__3.about__gray-bg::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    background: #f7f7f700;
+    content: "";
+}
+
+/**30-june-2023**/
+.services-two .services__item {
+    padding: 45px 31px !important;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    clip-path: polygon(6% 0, 100% 0, 94% 100%, 0 100%);
+    position: relative;
+    background: var(--clr-common-white);
+    z-index: 2;
+    height: 445px !important;
+}
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->

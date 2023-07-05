@@ -1,0 +1,117 @@
+/*----------------------------------------
+    skill
+----------------------------------------*/
+@use "../abstract" as *;
+
+// home-04-skill
+.skills-bg-img {
+	background-size: cover;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	background-position: center center;
+  @media #{$md, $sm, $xs} {
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+  }
+}
+.skills-wrapper {
+	padding: 97px 40px 100px 210px;
+  @media #{$xl, $lg} {
+    padding: 80px 20px 100px 40px;
+  }
+  @media #{$xs} {
+    padding: 0;
+    padding-bottom: 80px;
+  }
+  @media #{$md, $sm} {
+    padding: 0 60px 80px;
+  }
+  .section-title {
+    h2 {
+      font-size: 45px;
+    }
+  }
+}
+.progress-bar-text {
+    overflow: hidden; }
+  
+  .bar-title h4 {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 17px;
+    font-weight: 700;
+    color: var(--clr-theme-1);
+ }
+  
+  .progress-bar span {
+    font-size: 18px;
+    margin-top: -52px;
+    color: var(--clr-theme-1);
+    font-weight: 700; 
+}
+  
+  .progress-bar {
+  background-color: var(--clr-theme-2);
+  text-align: right; 
+  overflow: inherit;
+}
+  
+  .progress {
+    border-radius: 0;
+    height: 5px;
+    overflow: visible;
+    background: #e0e0e0;
+  }
+
+  .tmd__skill-wrapper .progress{
+    display: flex;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+
+// home-05-skill
+.progress-circular {
+  position: relative;
+  input {
+    font-size: 40px !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 45% !important;
+    transform: translate(-50%, -50%) !important;
+    left: 52% !important;
+    margin: 0 !important;
+    color: var(--clr-theme-1) !important;
+  }
+  canvas {
+    position: relative !important;
+  }
+}
+.our-skills-content{
+  & h3{
+    color:var(--clr-theme-1);
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 21px;
+  }
+}
+.our-skills-area {
+  .dp-up-btn {
+    margin-top: 27px;
+  }
+   
+  .our-skills-content {
+    h3 {
+      color: var(--clr-theme-1);
+    }
+  }
+}

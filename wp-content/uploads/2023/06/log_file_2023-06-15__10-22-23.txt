@@ -1,0 +1,183 @@
+
+---Downloaded files---
+The import files for: Home 01 were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://karrtar.test
+Data file = C:\laragon\www\karrtar/wp-content/themes/delport/sample-data/contents-demo.xml
+Widget file = C:\laragon\www\karrtar/wp-content/themes/delport/sample-data/widget-settings.json
+Customizer file = C:\laragon\www\karrtar/wp-content/themes/delport/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Imported
+Delport Sidebar Posts Image - Recent Post - Imported
+Categories - Category - Imported
+Tag Cloud - Popular Tags - Imported
+
+Footer 1 : 
+
+Custom HTML - About Us - Imported
+
+Footer 2 : 
+
+Navigation Menu - Other Pages - Imported
+
+Footer 3 : 
+
+Custom HTML - our services - Imported
+
+Footer 4 : 
+
+Custom HTML - Subscribe us - Imported
+
+Service Sidebar : 
+
+Delport Services List - Our Services - Imported
+Custom HTML - No Title - Imported
+Custom HTML - No Title - Imported
+
+Portfolio Sidebar : 
+
+Custom HTML - No Title - Imported
+Custom HTML - No Title - Imported
+Custom HTML - No Title - Imported
+
+Product Sidebar : 
+
+Product Search - No Title - Imported
+Product Categories - Product categories - Imported
+Filter Products by Price - Filter by price - Imported
+Products list - Products - Imported
+Product Tag Cloud - Product tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

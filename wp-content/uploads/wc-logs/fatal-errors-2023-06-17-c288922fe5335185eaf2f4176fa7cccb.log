@@ -1,0 +1,2 @@
+2023-06-17T09:18:57+00:00 CRITICAL Allowed memory size of 67108864 bytes exhausted (tried to allocate 20480 bytes) in /home/seo2topp/public_html/kartartrucking.seo2topp.com/wp-content/plugins/woocommerce/includes/class-wc-deprecated-filter-hooks.php on line 118
+

@@ -1,0 +1,41 @@
+<h3>Change Log</h3>
+
+<h2> 02 January 2023 &amp; Version 1.0.5</h2>
+<pre>
+- 1. Added: RTL Settings
+- 2. Added: Color Settings
+</pre>
+
+<h2> 26 December 2022 &amp; Version 1.0.4</h2>
+<pre>
+- 1. Added: Logistics Home-04
+- 2. Added: Logistics Home-05
+- 3. Added: Logistics Home-06
+- 4. Added: Blog Grid 2 Columns
+- 5. Added: Blog Grid 3 Columns
+</pre>
+
+<h2> 30 November 2022 &amp; Version 1.0.3</h2>
+<pre>
+- 1. Added: Award Page
+- 2. Added: Career Page
+- 3. Added: Get A Quote Page
+- 4. Added: Global Locations Page
+- 5. Added: Our Partner Page
+</pre>
+
+<h2> 26 November 2022 &amp; Version 1.0.2</h2>
+<pre>
+- 1. Added: WooCommerce Supported.
+</pre>
+
+<h2> 21 November 2022 &amp; Version 1.0.1</h2>
+<pre>
+- 1. Updated: Header and Footer
+- 2. Updated: Elementor Slider View
+</pre>
+
+<h2> 13 November 2022 &amp; Version 1.0.0</h2>
+<pre>
+- 1. Initial Release of Delport
+</pre>

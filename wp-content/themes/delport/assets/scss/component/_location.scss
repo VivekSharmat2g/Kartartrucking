@@ -1,0 +1,241 @@
+/*----------------------------------------
+08. Location CSS 
+----------------------------------------*/
+@use "../abstract" as *;
+
+// Location
+.location-map-area .location-item:nth-child(1) {
+	top: 25%;
+	left: 9%;
+}
+.location-map-area .location-item:nth-child(2) {
+	left: 35%;
+	top: 0;
+}
+.location-map-area .location-item:nth-child(3) {
+	top: 60px;
+	right: 20%;
+}
+.location-map-area .location-item:nth-child(4) {
+	left: 20%;
+	bottom: 110px;
+}
+.location-map-area .location-item:nth-child(5) {
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , -50%);
+}
+.location-map-area .location-item:nth-child(6) {
+	right: 30%;
+	bottom: 80px;
+}
+.location-map-area .location-item:nth-child(7) {
+	right: 90px;
+	bottom: 130px;
+}
+.location-text {
+	span {
+		font-size: 16px;
+		text-transform: capitalize;
+		font-weight: 500;
+	}
+}
+.location-map-bg {
+	min-height: 520px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.location-item {
+	position: absolute;
+	align-items: center;
+    @include transition(.3s);
+}
+.location-icon {
+	display: inline-block;
+	cursor: pointer;
+}
+.location-item.active .location-content {
+	opacity: 1;
+	visibility: visible;
+	transform: translate(-50%, 0px);
+}
+.location-counrty {
+	width: 65px;
+	height: 65px;
+	min-width: 65px;
+	border-radius: 50%;
+	overflow: hidden;
+	img {
+		height: 100% !important;
+		object-fit: cover;
+		object-position: top center;
+	}
+}
+.location-content {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 15px 15px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.08);
+	border-radius: 100px;
+	min-width: 220px;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translate(-50%, 10px);
+	opacity: 0;
+	visibility: hidden;
+	opacity: 0;
+    @include transition(.3s);
+	visibility: hidden;
+	z-index: 55;
+}
+.loaction-box {
+	padding: 40px 35px;
+	border: 2px solid var(--clr-common-border-2);
+    @media #{$xs,$xl}{
+        padding: 40px 30px;
+    }
+}
+.laction-county ul li:hover {
+	color: #db1c29;
+}
+// Country-tab
+.country-tab {
+    .nav-tabs {
+        border-bottom: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        .nav-link {
+            border: 0;
+            border: 2px solid var(--clr-common-border-2);
+            padding: 0 30px;
+            height: 60px;
+            border-radius: 0;
+            &:hover {
+                border: 2px solid var(--clr-common-border-2);
+                color: var(--clr-common-heading);
+            }
+            &.active {
+                background-color: var(--clr-common-color-red);
+                color: var(--clr-common-white);
+                border-color: var(--clr-common-color-red);
+            }
+        }
+    }
+    .nav-link {
+        font-family: "Oswald", sans-serif !important;
+        font-weight: 600;
+        padding: 0;
+        padding: 0;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: var(--clr-common-heading);
+        font-weight: 700;
+        &:hover {
+            color: var(--clr-common-red);
+        }
+    }
+}
+.laction-county {
+	ul {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		li {
+            list-style: none;
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            gap: 10px;;
+            span {
+                &:hover {
+                    color: var(--clr-common-color-red);
+                }
+            }
+		}
+	}
+}
+// Office map
+.office-wrapper {
+	display: flex;
+	gap: 35px;
+	padding: 50px 45px 50px;
+	background: var(--clr-common-white);
+	max-width: 630px;
+    @media #{$xs,$sm,$md}{
+        margin-left: 0;
+    }
+    @media #{$xs}{
+    	padding: 50px 30px 50px;
+		flex-wrap: wrap;
+    }
+}
+.office-map {
+	iframe {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 10px;
+		z-index: -1;
+	}
+}
+.office-item {
+	position: relative;
+	padding-right: 37px;
+	&:after {
+		position: absolute;
+		content: "";
+		height: 85%;
+		width: 1px;
+		border: 1px solid var(--clr-common-border-2);
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		@media #{$xs}{
+			display: none;
+		}
+	}
+	&:last-child {
+		padding-right: 0px;
+		&::after {
+			display: none;
+		}
+	}
+	h4 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        color: var(--clr-common-heading);
+		@media #{$xs}{
+			font-size: 20px;
+		}
+	}
+}
+.office-content {
+	span {
+		display: block;
+        &:last-child {
+            margin-left: 15px;
+        }
+		
+	}
+}
+.singel-addresss {
+	display: flex;
+	a {
+		display: inline-flex;
+		flex-wrap: wrap;
+		margin-bottom: 7px;
+		align-items: center;
+		
+	}
+	&:hover {
+		color: #db1c29;
+	}
+}

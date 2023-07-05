@@ -1,0 +1,204 @@
+/*----------------------------------------
+    13. FunFact CSS
+----------------------------------------*/
+@use "../abstract" as *;
+
+.dp-funfact-wrapper {
+    display: flex;
+    align-items: center;
+    @media #{$xs, $sm, $md, $lg}{
+        justify-content: flex-start;
+    }
+    .dp-funfact-icon {
+        margin-right: 20px;
+        i {
+            font-size: 60px;
+            color: var(--clr-common-color-red);
+            @media #{$xxs, $xs}{
+                font-size: 50px;
+            }
+        }
+    }
+    .dp-funfact-content {
+        h3 {
+            font-size: 50px;
+            font-family: "Oswald", sans-serif;
+            color: var(--clr-common-heading);
+            font-weight: 600;
+            @media #{$xs, $sm, $md, $lg}{
+                font-size: 34px;
+            }
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+.dp-funfactor-grid {
+    display: flex;
+    justify-content: space-between;
+    @media #{$sm, $md, $lg}{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    @media #{$xs}{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    @media #{$xxs}{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+.dp-funfact-content {
+    min-width: 140px;
+}
+
+
+// Funfact style 02 
+.dp-funfact-wrapper-02 {
+    padding: 30px;
+    position: relative;
+    justify-content: center;
+    @media #{$xxs, $xs, $sm}{
+        justify-content: center;
+    }
+}
+
+.dp-funfact-wrapper-02::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    border: 2px solid var(--clr-common-border-2);
+    transform: skew(-12deg);
+    z-index: -1;
+    left: 10px;
+    width: 100%;
+    @media #{$xxs, $xs, $sm}{
+       width: calc(100% - 30px);
+       transform: skew(-10deg);
+    }
+}
+
+// Funfact Style 03 
+.dp-funfact-area.dp-funfact-area-03{
+    background-repeat: no-repeat;
+    background: fixed;
+    background-size: cover;
+}
+.dp-funfact-wrapper-03 {
+    display: block;
+    background-color: transparent;
+    text-align: center;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+    .dp-funfact-icon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+.dp-funfact-area.dp-funfact-area-03::before {
+    position: absolute;
+    content: "";
+    background: var(--clr-common-heading);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+.dp-funfact-wrapper-03 .dp-funfact-content h3 {
+    color: #fff !important;
+}
+.dp-funfact-wrapper-03 .dp-funfact-icon i {
+    color: #fff !important;
+}
+.dp-funfact-wrapper-03 .dp-funfact-content p {
+    color: #fff !important;
+}
+
+//home-04 counter Style
+
+.counter-wrapper{
+    display: flex;
+    align-items: center;
+    @media #{$sm, $xs} {
+        justify-content: center;
+    }
+}
+.counter-icon{
+    margin-right: 20px;
+    font-size: 50px;
+    color:var(--clr-theme-2);
+    line-height: 1;
+    
+}
+.counter-text{
+    & h1{
+        color: var(--clr-theme-2);
+        font-size: 50px;
+        line-height: 1;
+    }
+    & span{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        color: var(--clr-gen-body-text);
+    }
+}
+.counter-wrapper .progress {
+	border-radius: 0;
+	height: 7px;
+	overflow: visible;
+	background: var(--clr-theme-1);
+}
+.counter-wrapper .progress-bar {
+	background-image: -moz-linear-gradient( 0deg, rgb(235,18,10) 0%, rgb(255,94,20) 99%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(235,18,10) 0%, rgb(255,94,20) 99%);
+    background-image: -ms-linear-gradient( 0deg, rgb(235,18,10) 0%, rgb(255,94,20) 99%);
+	text-align: right;
+	border-radius: 0 30px 30px 0;
+}
+.counter-white .counter-text h1 {
+	color: var(--clr-common-black);
+}
+.counter-white .counter-wrapper .progress {
+    background: #e4e4e4;
+}
+
+//home-06 counter Style
+.counter-padding{
+    padding-top: 360px;
+}
+
+.counter-wrapper-six {
+    display: block;
+    text-align: center;
+    padding: 20px 18px 80px;
+    position: relative;
+    background-color: var(--clr-common-white);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin: 0 10px 30px;
+    .counter-icon {
+        margin-right: 0;
+    }
+    .counter-text {
+        position: absolute;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--clr-theme-1);
+        width: 80%;
+        padding: 20px;
+        box-shadow: 0 -5px 15px rgba(0,0,0,0.2) inset;
+        h1 {
+            color: var(--clr-common-white);
+        }
+        span {
+            color: var(--clr-common-white);
+        }
+    }
+}
